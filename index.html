@@ -1,93 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Bros Unleashed Armory</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  
-body{background-color:#000000; color:#FFFFFF}
-  
-body {
-  font-family: Arial, Helvetica, sans-serif;
+<html>
+  <style>
+body{background-color:#000000; color:#FFFFFF}    
+   
+  ul {
+  list-style-type: none;
   margin: 0;
-  
-}/
-
-/* Style the header */
-.header {
-  padding: 80px;
-  text-align: center;
-  color: white;
-}
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
+  padding: 10;
   overflow: hidden;
-  background-color: #000000;
+  background-color:color: #FFFFFF;
+  top: 240;
+
+  font-size: 18px  
+  display: block;
+  color: 998855;
+  text-align: center;
+  width:60%;
+  margin:1px auto
 }
 
-/* Style the navigation bar links */
-.navbar a, a:visited, a:hover, a:active {
-  color: inherit;
+    
+li {
+    
   float: left;
+
+  
+}
+
+li a {
+    
   display: block;
-  color: #998855;
-  font-size: 30px;
+  color: 998855;
   text-align: center;
-  padding:20px 10px;
+  padding: 6px 16px;
+  text-decoration: none;
+  
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
  text-decoration: underline
   
-  
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
+.active {
+  background-color: #4CAF50;
+}
+    
+.banner {
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
 }
 
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #998855;
-  color: black;
+.banner img {
+  display: block;
+  margin: auto;
 }
-  
-</style>
-</head>
-<body>
-<div class="navbar">
-  <a href="Runewords.html">Runewords</a>
-  <a href="Unique Armor.html">Unique Armor</a>
-  <a href="Unique Weapons.html">Unique Weapons</a>    
-  <a href="Unique Jewelry.html">Unique Jewelry</a> 
-  <a href="Unique Stuff.html">Unique Misc.</a>  
-  <a href="Sets.html">Set Items</a>
-  <a href="WhiteArmors.html">Base Armors</a>  
-  <a href="WhiteWeapons.html">Base Weapons</a>  
-  <a href="Gems.html">Gems</a>
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+  </style>
+ <head>
+   
+ </head>
+ <body>
+<div class="banner">
+  <div class="row">
+    <img src="https://i.imgur.com/oApWBxb.png"  />
+  </div>
+</div>
+
+
+  <ul id="container">
+  <li class="item"><a href="Runewords.html">Runewords</a></li>
+  <li class="item"><a href="Unique Armor.html">Unique Armor</a></li>
+  <li class="item"><a href="Unique Weapons.html">Unique Weapons</a></li>    
+  <li class="item"><a href="Unique Jewelry.html">Unique Jewelry</a></li> 
+  <li class="item"><a href="Unique Stuff.html">Unique Misc.</a></li>  
+  <li class="item"><a href="Sets.html">Set Items</a></li>
+  <li class="item"><a href="WhiteArmors.html">Base Armors</a></li>  
+  <li class="item"><a href="WhiteWeapons.html">Base Weapons</a></li>  
+  <li class="item"><a href="Gems.html">Gems</a></li>
 </div>  
   
-<div class="navbar">  
-  <a href="Prefixes.html">Prefixes</a>
-  <a href="Suffixes.html">Suffixes</a>   
+
+
+<div class="navbar"> 
+  <li class="item"><a href="RecipesNormal.html">Normal Recipes</a></li>  
+  <li class="item"><a href="RecipesMagical.html">Magic Recipes</a></li>
+  <li class="item"><a href="RecipesRare.html">Rare Recipes</a></li>
+  <li class="item"><a href="RecipesCrafted.html">Crafted Recipes</a></li>
+  <li class="item"><a href="RecipesSet.html">Set Recipes</a></li>
+  <li class="item"><a href="RecipesUnique.html">Unique Recipes</a></li>
+  <li class="item"><a href="RecipesOther.html">Other Recipes</a></li>
 </div>
-<div class="navbar">  
-  <a href="RecipesNormal.html">Normal Recipes</a>  
-  <a href="RecipesMagical.html">Magic Recipes</a>
-  <a href="RecipesRare.html">Rare Recipes</a>
-  <a href="RecipesCrafted.html">Crafted Recipes</a>
-  <a href="RecipesSet.html">Set Recipes</a>
-  <a href="RecipesUnique.html">Unique Recipes</a>
-  <a href="RecipesOther.html">Other Recipes</a>
-</div>
-<div class="navbar">    
-  <a href="BossStats.html">Boss Stats</a>
-  <a href="MonProps.html">Enemy Counters and Buffs</a>
-</div>
-</body>
+
+<div class="navbar"> 
+  <li class="item"><a href="Prefixes.html">Prefixes</a></li>
+  <li class="item"><a href="Suffixes.html">Suffixes</a></li>   
+  <li class="item"><a href="BossStats.html">Boss Stats</a></li>
+  <li class="item"><a href="MonProps.html">Enemy Counters and Buffs</a></li>
+</div>  
+  
+  
+    
+  </ul>
+ </body>
 </html>
